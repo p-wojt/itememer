@@ -1,0 +1,35 @@
+.lore {
+  color: yellow;
+}
+
+.item-viewer {
+  color: white;
+  margin: 0.5rem;
+}
+
+.item-image {
+  float: left;
+  margin-right: 0.5rem;
+}
+
+.item-description {
+  background-color: rgba(14, 12, 32, 0.8);
+  border: 1px solid gray;
+  border-radius: 1%;
+  float: left;
+  text-align: left;
+  min-width: 300px;
+  padding: 0.1rem;
+}
+
+.item-level {
+  color: orange;
+}
+
+@media only screen and (max-width: 1080px) {
+  .item-viewer {
+    margin-top: 3rem;
+    float: right;
+  }
+
+}

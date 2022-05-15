@@ -1,0 +1,89 @@
+ul {
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  border: 1px solid #999;
+  padding: 5px 0;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+  flex-grow: 1;
+  margin: 0.5rem;
+}
+
+span {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+span > label{
+  display: block;
+  min-width: 100px;
+}
+
+span > input[type=text]{
+  width: 150px;
+}
+
+input,
+select {
+  margin: 0.5rem;
+}
+
+.item-view {
+  margin-left: 2rem;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-name > input {
+  width: 60%;
+}
+
+.item-decorator {
+  color: white;
+  background-color: rgba(112, 112, 122, 0.5);
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 1%;
+  padding: 25px;
+}
+
+
+.description{
+  border: none;
+  display: flex;
+}
+
+
+.choose-image{
+  align-self: center;
+  justify-self: center;
+  width: 64px;
+  height: 64px;
+  border: 1px solid gray;
+  margin-right: 0.5rem;
+}
+
+.lore {
+  flex-grow: 1;
+}
+
+.choose-image:hover{
+  background-color: rgba(208, 255, 0, 0.25);
+}
