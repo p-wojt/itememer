@@ -1,0 +1,52 @@
+.ball {
+  position: fixed;
+  border-radius: 50%;
+  display: inline-block;
+  transform-origin: bottom right;
+  width: 50rem;
+  height: 50rem;
+
+
+  &--1 {
+    background-color: $color-secondary;
+    top: -50%;
+    left: -20%;
+    z-index: -10;
+  }
+
+  &--2 {
+    background-color: $color-markup;
+    top: -5%;
+    left: -30%;
+    z-index: -9;
+  }
+
+  &--3 {
+    background-color: $color-markup;
+    top: -50%;
+    right: -20%;
+    z-index: -9;
+  }
+
+  &--4 {
+    background-color: $color-secondary;
+    bottom: -50%;
+    right: -15%;
+    z-index: -9;
+  }
+
+  &--5 {
+    background-color: $color-markup;
+    bottom: -50%;
+    right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: -10;
+  }
+
+  &--6 {
+    background-color: $color-secondary;
+    bottom: -50%;
+    left: -20%;
+    z-index: -9;
+  }
+}

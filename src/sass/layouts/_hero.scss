@@ -1,0 +1,11 @@
+.hero {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-20%, -40%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,24 @@
+////////////////
+//FONTS IMPORTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600&display=swap');
+
+////////////////
+//BASE
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+body {
+  box-sizing: border-box;
+}

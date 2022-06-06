@@ -1,0 +1,43 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    text-decoration: none;
+  }
+
+  &__item {
+    cursor: pointer;
+
+    &--right {
+      width: 10rem;
+      margin-bottom: -1px;
+      padding: 1rem;
+      margin-left: 5rem;
+    }
+
+    &--left {
+      width: 10rem;
+      padding: 1rem;
+    }
+  }
+  &--color-tertiary {
+    background-color: $color-markup;
+  }
+
+  &--zigzag {
+    width: 15rem;
+    margin-top: 2rem;
+    font-weight: 600;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transform: rotate(5deg);
+
+    transition: transform 0.2s;
+
+    &:hover {
+      transform: rotate(5deg) scale(1.05) translateY(-5px);
+    }
+  }
+}

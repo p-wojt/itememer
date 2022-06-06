@@ -1,0 +1,41 @@
+.text {
+
+
+  &--color-tertiary {
+    color: $color-tertiary;
+  }
+
+  &--color-black {
+    color: $color-black;
+  }
+
+  &--color-white {
+    color: $color-white;
+  }
+
+  &--bold {
+    font-weight: 600;
+  }
+
+  &--large {
+    font-size: $font-size-large;
+  }
+
+  &--newline {
+    display: block;
+  }
+
+  &--uppercase {
+    text-transform: uppercase;
+  }
+
+  &--thin {
+    font-weight: 200;
+  }
+
+}
+
+.text-heading-primary {
+  font-size: $font-size-medium;
+  font-weight: 400;
+}
